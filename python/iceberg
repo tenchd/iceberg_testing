@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep  1 11:06:32 2021
+
+@author: devd
+"""
+
+class SwitchIceberg:
+    """A simple implementation of an iceberg-style hash table/filter for 
+    switch hardware."""
+    
+    def __init__(self, stages, capacity, zone_size, seed):
+        self.stages = stages
+        self.capacity = capacity
+        self.zone_size = zone_size
+        self.seed = seed
+    
